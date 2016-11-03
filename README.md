@@ -64,7 +64,7 @@ See the [**book of doobie**](http://tpolecat.github.io/doobie-0.3.0/00-index.htm
 
 ## Development Milestones and Snapshots
 
-The current development milestone is **0.3.1-M1**, and the changing version is **0.3.1-SNAPSHOT**. These differ from **0.3.0** in at least the following important ways:
+The current development milestone is **0.3.1-M2**, and the changing version is **0.3.1-SNAPSHOT**, both for **2.11 only**. These differ from **0.3.0** in at least the following important ways:
 
 - Artifacts are now published for [Cats](http://typelevel.org/cats/)! Artifact names are the same but end in `-cats`, so `doobie-core-cats` and `doobie-h2-cats`. The scalaz and Cats variants are compiled without shims or indirection; **doobie** now uses a preprocessor to make slight adjustments to the source to compile it "natively" for both libraries. See below for more details.
 - The `contrib` segment in artifacts and package names is gone. So `doobie-h2` is the artifact now and `doobie.h2` is the package name.
